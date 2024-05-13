@@ -1,0 +1,51 @@
+.library-search {
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 8%;
+}
+
+.library-search form > div {
+  margin-bottom: 20px;
+}
+
+.library-search label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.library-search input[type='text'],
+.library-search select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.library-search button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.library-search button:hover {
+  background-color: #0056b3;
+}
+
+.search-by-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+#search-by {
+  width: 220px;
+}
+
+#search-value {
+  width: 202px;
+}
