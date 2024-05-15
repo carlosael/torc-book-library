@@ -18,9 +18,9 @@ function LibrarySearch() {
   return (
     <div>
       <h1>Royal Library</h1>
-      <div class="library-search">
+      <div className="library-search">
         <form>
-          <div class="search-by-wrapper">
+          <div className="search-by-wrapper">
             <label htmlFor="search-by">Search By:</label>
             <select
               id="search-by"
@@ -32,7 +32,7 @@ function LibrarySearch() {
               <option value="isbn">ISBN</option>
             </select>
           </div>
-          <div class="search-by-wrapper">
+          <div className="search-by-wrapper">
             <label htmlFor="search-value">Search Value:</label>
             <input
               type="text"
